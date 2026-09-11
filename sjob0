@@ -1,5 +1,0 @@
-#!/bin/bash
-#SBATCH -N 1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=96
-srun ./vlasov
